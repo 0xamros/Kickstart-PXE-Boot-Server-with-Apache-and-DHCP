@@ -50,7 +50,7 @@ firewall-cmd --reload
 
 
 ```
-option domain-name "aziz.com"; option domain-name-servers 4.4.2.2, 8.8.8.8; default-lease-time 86400; max-lease-time 86400; authoritative; log-facility local7;   subnet 192.168.42.0 netmask 255.255.255.0 {
+option domain-name "amr.com"; option domain-name-servers 4.4.2.2, 8.8.8.8; default-lease-time 86400; max-lease-time 86400; authoritative; log-facility local7;   subnet 192.168.42.0 netmask 255.255.255.0 {
  range 192.168.42.100 192.168.42.200; }
  ```
 
